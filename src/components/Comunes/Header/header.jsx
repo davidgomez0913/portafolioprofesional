@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import './Header.sass'
 
 const Header = () => {
+
     return (
         <>
             <header>
@@ -14,10 +15,10 @@ const Header = () => {
                     <nav>
                         <ul>
                             <li>
-                                <Link href="/">Inicio</Link>
+                                <Link to="/">Inicio</Link>
                             </li>
                             <li>
-                                <a href="#proyectos">Proyectos</a>
+                                <a href={document.URL === "http://localhost:3000" ? "#proyectos" : "/#proyectos"}>Proyectos</a>
                             </li>
                             <li>
                                 <a href="#redes">Contacto</a>
