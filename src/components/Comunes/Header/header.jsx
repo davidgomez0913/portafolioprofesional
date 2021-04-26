@@ -18,7 +18,7 @@ const Header = () => {
                                 <Link to="/">Inicio</Link>
                             </li>
                             <li>
-                                <a href={document.URL === "http://localhost:3000" ? "#proyectos" : "/#proyectos"}>Proyectos</a>
+                                <a href={document.URL === "http://localhost:3000" ? "#proyectos" : "/proyectos"}>Proyectos</a>
                             </li>
                             <li>
                                 <a href="#redes">Contacto</a>

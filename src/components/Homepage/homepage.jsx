@@ -1,7 +1,6 @@
 import React from 'react'
 import './homepage'
-import {peliculasReact, github} from '../../assets/imagenes'
-import {Link} from 'react-router-dom'
+import {github} from '../../assets/imagenes'
 import './Homepage.sass'
 
 const Homepage = () => {
@@ -30,17 +29,6 @@ const Homepage = () => {
                         <li>SQL</li>
                         <li>Manipulación de datos Formato JSON</li>
                     </ul>
-                </div>
-                <div className="proyectos-container" id="proyectos">
-                    <div className="proyecto">
-                        <img src={peliculasReact} alt="Proyecto Peliculas"/>
-                        <Link to="/peliculasazul">Peliculas React</Link>
-                    </div>
-                    <div className="proyecto">
-                        <img src={peliculasReact} alt="Proyecto Peliculas"/>
-                        <Link to="/peliculasazul">Peliculas React</Link>
-                    </div>
-                   
                 </div>
             </main>
         </>
